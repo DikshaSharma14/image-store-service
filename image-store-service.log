@@ -1,0 +1,801 @@
+[2020-09-23 13:50:08.8813712 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 13:50:08.892377 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 13:50:08.8969794 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 13:50:08.8979779 IST][INFO][server.go 0] Router configured
+[2020-09-23 13:50:08.8979779 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 13:52:30.1239261 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 13:52:30.1329249 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 13:52:30.1344303 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 13:52:30.1349265 IST][INFO][server.go 0] Router configured
+[2020-09-23 13:52:30.1349265 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 13:57:56.4168813 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 13:57:56.4198669 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 13:57:56.4198669 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 13:57:56.4198669 IST][INFO][server.go 0] Router configured
+[2020-09-23 13:57:56.4198669 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 13:57:57.421738 IST][INFO][main.go main] Server Started
+[2020-09-23 13:58:17.950516 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 13:58:17.950516 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 13:58:17.9515662 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 13:58:17.952515 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} 00000000-0000-0000-0000-000000000000 }
+[2020-09-23 13:58:17.9535163 IST][WARN][sqlite_orm.go Post] no such table: albumno such table: album
+[2020-09-23 13:58:17.9535163 IST][WARN][image-service.go AddAlbum] no such table: albumno such table: album
+[2020-09-23 13:58:17.9535163 IST][ERROR][api_add_album_service.go AddAlbum] no such table: albumno such table: album
+[2020-09-23 13:58:17.9535163 IST][DEBUG][logger.go func1] POST /albums AddAlbum 3.0003ms
+[2020-09-23 14:11:36.5300626 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:11:36.5320683 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:11:36.5320683 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:11:36.5330665 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:11:36.5330665 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:11:37.5334415 IST][INFO][main.go main] Server Started
+[2020-09-23 14:13:04.51346 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:13:04.5154621 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:13:04.5154621 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:13:04.5164609 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:13:04.5164609 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:13:05.5174412 IST][INFO][main.go main] Server Started
+[2020-09-23 14:13:17.3083504 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:13:17.3083504 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:13:17.3083504 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:13:17.3103502 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} 00000000-0000-0000-0000-000000000000 }
+[2020-09-23 14:13:17.3103502 IST][WARN][sqlite_orm.go Post] no such table: albumno such table: album
+[2020-09-23 14:13:17.3103502 IST][WARN][image-service.go AddAlbum] no such table: albumno such table: album
+[2020-09-23 14:13:17.3103502 IST][ERROR][api_add_album_service.go AddAlbum] no such table: albumno such table: album
+[2020-09-23 14:13:17.3103502 IST][DEBUG][logger.go func1] POST /albums AddAlbum 1.9998ms
+[2020-09-23 14:14:23.7943933 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:14:23.7973833 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:14:23.7973833 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:14:23.7973833 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:14:23.7983815 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:14:24.7974208 IST][INFO][main.go main] Server Started
+[2020-09-23 14:14:27.6731863 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:14:27.6731863 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:14:27.6731863 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:14:27.6931844 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} }
+[2020-09-23 14:14:27.696184 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:14:27.696184 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:14:27.696184 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:14:27.696184 IST][DEBUG][logger.go func1] POST /albums AddAlbum 22.9981ms
+[2020-09-23 14:15:14.2335145 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:15:14.2365172 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:15:14.2365172 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:15:14.2365172 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:15:14.2375173 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:15:15.2515611 IST][INFO][main.go main] Server Started
+[2020-09-23 14:15:17.344503 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:15:17.344503 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:15:17.3455019 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:15:17.3475043 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} }
+[2020-09-23 14:15:17.3485022 IST][WARN][sqlite_orm.go Post] no such table: no such table: 
+[2020-09-23 14:15:17.3485022 IST][WARN][image-service.go AddAlbum] no such table: no such table: 
+[2020-09-23 14:15:17.3485022 IST][ERROR][api_add_album_service.go AddAlbum] no such table: no such table: 
+[2020-09-23 14:15:17.3485022 IST][DEBUG][logger.go func1] POST /albums AddAlbum 3.9993ms
+[2020-09-23 14:16:42.7659016 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:16:42.7688991 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:16:42.7688991 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:16:42.7688991 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:16:42.7688991 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:16:43.7690851 IST][INFO][main.go main] Server Started
+[2020-09-23 14:16:49.7364485 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:16:49.7364485 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:16:49.7364485 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:16:49.7374187 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} }
+[2020-09-23 14:16:49.7444189 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:16:49.7444189 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:16:49.7444189 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:16:49.7444189 IST][DEBUG][logger.go func1] POST /albums AddAlbum 7.9705ms
+[2020-09-23 14:17:25.3497941 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:17:25.354806 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:17:25.354806 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:17:25.3557978 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:17:25.3557978 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:17:26.3565493 IST][INFO][main.go main] Server Started
+[2020-09-23 14:22:33.6817695 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:22:33.6897686 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:22:33.6897686 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:22:33.69077 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:22:33.69077 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:22:34.6909872 IST][INFO][main.go main] Server Started
+[2020-09-23 14:22:43.2433089 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:22:43.2633087 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:22:43.2633087 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:22:43.2643229 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:22:43.2643229 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:22:44.2648907 IST][INFO][main.go main] Server Started
+[2020-09-23 14:25:15.0378418 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:25:15.0408435 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:25:15.0408435 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:25:15.0418429 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:25:15.0418429 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:25:16.0420084 IST][INFO][main.go main] Server Started
+[2020-09-23 14:25:25.5257767 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:25:25.5257767 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:25:25.5257767 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:25:25.5277733 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} }
+[2020-09-23 14:25:25.5337732 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:25:25.5337732 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:25:25.5337732 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:25:25.5337732 IST][DEBUG][logger.go func1] POST /albums AddAlbum 8.998ms
+[2020-09-23 14:26:46.1239638 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:26:46.168954 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:26:46.168954 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:26:46.1699606 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:26:46.1699606 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:26:47.1699806 IST][INFO][main.go main] Server Started
+[2020-09-23 14:27:20.0695296 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:27:20.0735116 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:27:20.0735116 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:27:20.074515 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:27:20.074515 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:27:21.0745577 IST][INFO][main.go main] Server Started
+[2020-09-23 14:27:26.7708113 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:27:26.771777 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:27:26.771777 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:27:26.7737745 IST][DEBUG][sqlite_orm.go Post] Persisting new record : {{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} }
+[2020-09-23 14:27:26.7777728 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:27:26.7777728 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:27:26.7777728 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:27:26.7777728 IST][DEBUG][logger.go func1] POST /albums AddAlbum 6.9616ms
+[2020-09-23 14:29:49.1286545 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:29:49.1366636 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:29:49.1376597 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:29:49.138658 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:29:49.138658 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:29:50.1393629 IST][INFO][main.go main] Server Started
+[2020-09-23 14:29:52.1063469 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:29:52.1063469 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:29:52.1063469 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:29:52.11234 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000092a90
+[2020-09-23 14:29:52.1133411 IST][WARN][sqlite_orm.go Post] no such table: no such table: 
+[2020-09-23 14:29:52.1133411 IST][WARN][image-service.go AddAlbum] no such table: no such table: 
+[2020-09-23 14:29:52.1133411 IST][ERROR][api_add_album_service.go AddAlbum] no such table: no such table: 
+[2020-09-23 14:29:52.1133411 IST][DEBUG][logger.go func1] POST /albums AddAlbum 6.9943ms
+[2020-09-23 14:31:29.3292083 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:31:29.3362107 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:31:29.3362107 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:31:29.3372085 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:31:29.3372085 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:31:30.3461149 IST][INFO][main.go main] Server Started
+[2020-09-23 14:31:43.7885435 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:31:43.7965427 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:31:43.7965427 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:31:43.7965427 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:31:43.7965427 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:31:44.7998237 IST][INFO][main.go main] Server Started
+[2020-09-23 14:31:48.0048065 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:31:48.0048065 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:31:48.0048065 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:31:48.0098092 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00027fd00
+[2020-09-23 14:31:48.0098092 IST][DEBUG][sqlite_orm.go Post] model.Album
+[2020-09-23 14:31:48.0098092 IST][DEBUG][sqlite_orm.go Post] *interface {}
+[2020-09-23 14:31:48.0108079 IST][WARN][sqlite_orm.go Post] no such table: no such table: 
+[2020-09-23 14:31:48.0108079 IST][WARN][image-service.go AddAlbum] no such table: no such table: 
+[2020-09-23 14:31:48.0108079 IST][ERROR][api_add_album_service.go AddAlbum] no such table: no such table: 
+[2020-09-23 14:31:48.0108079 IST][DEBUG][logger.go func1] POST /albums AddAlbum 6.0014ms
+[2020-09-23 14:32:26.8733251 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:32:26.8763243 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:32:26.8763243 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:32:26.8773359 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:32:26.8773359 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:32:27.8843127 IST][INFO][main.go main] Server Started
+[2020-09-23 14:34:01.8794749 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:34:01.8804952 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:34:01.8804952 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:34:01.8824761 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc0003061f0
+[2020-09-23 14:34:01.8824761 IST][DEBUG][sqlite_orm.go Post] model.Album
+[2020-09-23 14:34:01.8824761 IST][DEBUG][sqlite_orm.go Post] *interface {}
+[2020-09-23 14:34:01.8864737 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:34:01.8864737 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:34:01.8864737 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:34:01.8864737 IST][DEBUG][logger.go func1] POST /albums AddAlbum 6.9989ms
+[2020-09-23 14:35:41.9986953 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:35:42.0016736 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:35:42.0016736 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:35:42.0026764 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:35:42.0026764 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:35:43.0033749 IST][INFO][main.go main] Server Started
+[2020-09-23 14:36:34.8665791 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:36:34.8665791 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:36:34.8665791 IST][DEBUG][image-service.go AddAlbum] Album Request{{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} }
+[2020-09-23 14:36:34.8665791 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:36:34.8686056 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00030c5d0
+[2020-09-23 14:36:34.8765878 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:36:34.8765878 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:36:34.8765878 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:36:34.8765878 IST][DEBUG][logger.go func1] POST /albums AddAlbum 11.0084ms
+[2020-09-23 14:38:51.0857121 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:38:51.1187051 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:38:51.1187051 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:38:51.1207107 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:38:51.1207107 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:38:52.1208626 IST][INFO][main.go main] Server Started
+[2020-09-23 14:39:45.4170198 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:39:45.4220186 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:39:45.4220186 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:39:45.4220186 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:39:45.4230204 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:39:46.4343765 IST][INFO][main.go main] Server Started
+[2020-09-23 14:39:49.5341838 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:39:49.5341838 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:39:49.5341838 IST][DEBUG][image-service.go AddAlbum] Album Request{ albumName}
+[2020-09-23 14:39:49.5341838 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:39:49.5351834 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000040580
+[2020-09-23 14:39:49.5381834 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:39:49.5381834 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:39:49.5391861 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:39:49.5391861 IST][DEBUG][logger.go func1] POST /albums AddAlbum 5.0023ms
+[2020-09-23 14:40:11.245208 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:40:11.245208 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:40:11.245208 IST][DEBUG][image-service.go AddAlbum] Album Request{ MyAlbum}
+[2020-09-23 14:40:11.245208 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:40:11.2462087 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00018e190
+[2020-09-23 14:40:11.2492086 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:40:11.2492086 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:40:11.2492086 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:40:11.2492086 IST][DEBUG][logger.go func1] POST /albums AddAlbum 4.0006ms
+[2020-09-23 14:41:48.1865849 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:41:48.1985911 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:41:48.1985911 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:41:48.1995895 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:41:48.1995895 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:41:49.1996706 IST][INFO][main.go main] Server Started
+[2020-09-23 14:48:40.4033098 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:48:40.4263111 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:48:40.4263111 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:48:40.4273069 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:48:40.4273069 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:48:41.4390138 IST][INFO][main.go main] Server Started
+[2020-09-23 14:49:16.610111 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:49:16.6331074 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:49:16.6331074 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:49:16.6341075 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:49:16.6341075 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:49:17.635098 IST][INFO][main.go main] Server Started
+[2020-09-23 14:49:56.1511175 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:49:56.1781123 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:49:56.1781123 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:49:56.1791126 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:49:56.1791126 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:49:57.1800286 IST][INFO][main.go main] Server Started
+[2020-09-23 14:50:57.9622305 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:50:57.9902314 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:50:57.9902314 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:50:57.9902314 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:50:57.9902314 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:50:58.9921901 IST][INFO][main.go main] Server Started
+[2020-09-23 14:51:16.6955365 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 14:51:16.6955365 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 14:51:16.6955365 IST][DEBUG][image-service.go AddAlbum] Album Request{ MyAlbum}
+[2020-09-23 14:51:16.6955365 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 14:51:16.6975353 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00027ef40
+[2020-09-23 14:51:16.704536 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 14:51:16.704536 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:51:16.704536 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 14:51:16.704536 IST][DEBUG][logger.go func1] POST /albums AddAlbum 10.0024ms
+[2020-09-23 14:58:45.1126349 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:58:45.1346304 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:58:45.1346304 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:58:45.1356334 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:58:45.1356334 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:58:46.135872 IST][INFO][main.go main] Server Started
+[2020-09-23 14:59:28.1606396 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 14:59:28.1676396 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 14:59:28.1676396 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 14:59:28.1676396 IST][INFO][server.go 0] Router configured
+[2020-09-23 14:59:28.1676396 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 14:59:29.1824721 IST][INFO][main.go main] Server Started
+[2020-09-23 15:03:06.5640509 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:03:06.5640509 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:03:06.5650321 IST][DEBUG][image-service.go AddAlbum] Album Request{ MyAlbum}
+[2020-09-23 15:03:06.5650321 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:03:06.5660338 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000186380
+[2020-09-23 15:03:06.5690304 IST][WARN][sqlite_orm.go Post] using unaddressable valueusing unaddressable value
+[2020-09-23 15:03:06.5690304 IST][WARN][image-service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 15:03:06.5690304 IST][ERROR][api_add_album_service.go AddAlbum] using unaddressable valueusing unaddressable value
+[2020-09-23 15:03:06.5700304 IST][DEBUG][logger.go func1] POST /albums AddAlbum 5.9795ms
+[2020-09-23 15:04:06.2101442 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:04:06.2141451 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:04:06.2141451 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:04:06.2151538 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:04:06.2151538 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:04:07.2151571 IST][INFO][main.go main] Server Started
+[2020-09-23 15:04:09.4463153 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:04:09.4463153 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:04:09.4463153 IST][DEBUG][image-service.go AddAlbum] Album Request{ MyAlbum}
+[2020-09-23 15:04:09.4463153 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:04:09.4473136 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00030c420
+[2020-09-23 15:04:09.4563064 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:04:09.4563064 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:04:09.4563064 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:04:09.4563064 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:04:09.4563064 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:04:09.4563064 IST][DEBUG][logger.go func1] POST /albums AddAlbum 9.9911ms
+[2020-09-23 15:06:20.5765943 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:06:20.5795915 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:06:20.5795915 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:06:20.5805921 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:06:20.5815905 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:06:21.5822518 IST][INFO][main.go main] Server Started
+[2020-09-23 15:06:24.8027729 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:06:24.8027729 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:06:24.8037729 IST][DEBUG][image-service.go AddAlbum] Album Request{ MyAlbum}
+[2020-09-23 15:06:24.8037729 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:06:24.8047735 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000041450
+[2020-09-23 15:06:24.8107731 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:06:24.8107731 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:06:24.8107731 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:06:24.8107731 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:06:24.8107731 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:06:24.8107731 IST][DEBUG][logger.go func1] POST /albums AddAlbum 8.0002ms
+[2020-09-23 15:22:48.8471304 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:22:48.8541266 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:22:48.8551288 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:22:48.8551288 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:22:48.8561253 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:22:49.8561201 IST][INFO][main.go main] Server Started
+[2020-09-23 15:22:53.4234732 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:22:53.4234732 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:22:53.424493 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:22:53.424493 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:22:53.424493 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc0002801c0
+[2020-09-23 15:22:53.4364715 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:22:53.4364715 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:22:53.4364715 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:22:53.4364715 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:22:53.4364715 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:22:53.4364715 IST][DEBUG][logger.go func1] POST /albums AddAlbum 12.9984ms
+[2020-09-23 15:25:29.336947 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:25:29.3779496 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:25:29.3779496 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:25:29.3789487 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:25:29.3789487 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:25:30.3870294 IST][INFO][main.go main] Server Started
+[2020-09-23 15:28:19.0974626 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:28:19.1244611 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:28:19.1244611 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:28:19.1254794 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:28:19.1254794 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:28:20.1262935 IST][INFO][main.go main] Server Started
+[2020-09-23 15:30:18.3163301 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:30:18.3163301 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:30:18.3163301 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:30:18.3163301 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:30:18.317335 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc0001fff20
+[2020-09-23 15:30:18.3283246 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:30:18.3283246 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:30:18.3283246 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:30:18.3283246 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:30:18.3293287 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:30:18.3293287 IST][DEBUG][logger.go func1] POST /albums AddAlbum 12.9987ms
+[2020-09-23 15:40:47.0544278 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:40:47.0634255 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:40:47.0634255 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:40:47.0634255 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:40:47.0644257 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:40:48.0665163 IST][INFO][main.go main] Server Started
+[2020-09-23 15:40:54.6988474 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:40:54.6988474 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:40:54.6988474 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:40:54.6988474 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:40:54.6998449 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000259870
+[2020-09-23 15:40:54.7118468 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:40:54.7118468 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:40:54.7118468 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:40:54.7118468 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:40:54.7118468 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:40:54.7118468 IST][DEBUG][logger.go func1] POST /albums AddAlbum 14.0013ms
+[2020-09-23 15:41:41.7147649 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:41:41.7207641 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:41:41.7207641 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:41:41.7207641 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:41:41.7207641 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:41:42.7257281 IST][INFO][main.go main] Server Started
+[2020-09-23 15:41:46.8410926 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:41:46.8410926 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:41:46.8410926 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:41:46.8410926 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:41:46.8420929 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000306260
+[2020-09-23 15:41:46.8540919 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:41:46.8540919 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:41:46.8540919 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:41:46.8540919 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:41:46.8540919 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:41:46.8540919 IST][DEBUG][logger.go func1] POST /albums AddAlbum 12.9994ms
+[2020-09-23 15:43:42.1165074 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:43:42.1225089 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:43:42.1225089 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:43:42.1225089 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:43:42.1235092 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:43:43.1244471 IST][INFO][main.go main] Server Started
+[2020-09-23 15:43:44.9947267 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:43:44.9947267 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:43:44.9947267 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:43:44.9947267 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:43:44.9957018 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00030c550
+[2020-09-23 15:43:45.0106979 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:43:45.0106979 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:43:45.0106979 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:43:45.0116973 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:43:45.0116973 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:43:45.0116973 IST][DEBUG][logger.go func1] POST /albums AddAlbum 16.9707ms
+[2020-09-23 15:44:36.2444873 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:44:36.2484892 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:44:36.2484892 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:44:36.2484892 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:44:36.2484892 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:44:37.2493247 IST][INFO][main.go main] Server Started
+[2020-09-23 15:44:40.3646753 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:44:40.3646753 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:44:40.3646753 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:44:40.3646753 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:44:40.3686466 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00018c460
+[2020-09-23 15:44:40.385646 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:44:40.385646 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:44:40.385646 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:44:40.385646 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:44:40.385646 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:44:40.385646 IST][DEBUG][logger.go func1] POST /albums AddAlbum 20.9708ms
+[2020-09-23 15:45:19.0730968 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:45:19.0771023 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:45:19.0771023 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:45:19.0771023 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:45:19.0771023 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:45:20.0800402 IST][INFO][main.go main] Server Started
+[2020-09-23 15:45:22.4261035 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:45:22.4261035 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:45:22.4261035 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:45:22.4261035 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:45:22.4271076 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00027fa60
+[2020-09-23 15:45:22.4391061 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:45:22.4391061 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:45:22.4391061 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:45:22.4401044 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:45:22.4401044 IST][TRACE][routers.go EncodeJSONResponse] Function execution finished
+[2020-09-23 15:45:22.4401044 IST][TRACE][routers.go EncodeJSONResponse] <nil>
+[2020-09-23 15:45:22.4401044 IST][TRACE][routers.go EncodeJSONResponse] [110 117 108 108]
+[2020-09-23 15:45:22.4401044 IST][DEBUG][logger.go func1] POST /albums AddAlbum 14.001ms
+[2020-09-23 15:45:53.2376365 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 15:45:53.2426312 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 15:45:53.2426312 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 15:45:53.2436303 IST][INFO][server.go 0] Router configured
+[2020-09-23 15:45:53.2436303 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 15:45:54.2545614 IST][INFO][main.go main] Server Started
+[2020-09-23 15:46:04.185572 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 15:46:04.185572 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 15:46:04.185572 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 MyAlbum}
+[2020-09-23 15:46:04.185572 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 15:46:04.1865702 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00028ca40
+[2020-09-23 15:46:04.1965678 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 15:46:04.1965678 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 15:46:04.1965678 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 15:46:04.1965678 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 15:46:04.1965678 IST][TRACE][routers.go EncodeJSONResponse] No body
+[2020-09-23 15:46:04.1965678 IST][DEBUG][logger.go func1] POST /albums AddAlbum 10.9958ms
+[2020-09-23 18:45:47.1342311 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 18:45:47.1552318 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 18:45:47.1552318 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 18:45:47.1552318 IST][INFO][server.go 0] Router configured
+[2020-09-23 18:45:47.1552318 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 18:45:48.1563123 IST][INFO][main.go main] Server Started
+[2020-09-23 18:46:04.7193173 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 18:46:04.7193173 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 18:46:04.7203134 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 Travel}
+[2020-09-23 18:46:04.7203134 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 18:46:04.7203134 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc0002ca440
+[2020-09-23 18:46:04.7343169 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 18:46:04.7343169 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 18:46:04.7343169 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 18:46:04.7343169 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 18:46:04.7343169 IST][DEBUG][logger.go func1] POST /albums AddAlbum 14.9996ms
+[2020-09-23 18:46:49.6088354 IST][TRACE][api_get_images_by_album_service.go GetImagesByAlbum] Function execution started
+[2020-09-23 18:46:49.6088354 IST][TRACE][image-service.go ListImagesByAlbumID] Function execution started
+[2020-09-23 18:46:49.6088354 IST][DEBUG][image-service.go FromString] Listing all images in an album with id : eb0290d4-4f5d-4dfc-9937-2aaf717f6347
+[2020-09-23 18:46:49.6088354 IST][TRACE][sqlite_orm.go ListBasedOnCondition] Function execution started
+[2020-09-23 18:46:49.6088354 IST][DEBUG][sqlite_orm.go ListBasedOnCondition] Listing all records of type : *[]model.Image
+[2020-09-23 18:46:49.6098359 IST][TRACE][sqlite_orm.go ListBasedOnCondition] Function execution finished
+[2020-09-23 18:46:49.6098359 IST][TRACE][image-service.go ListImagesByAlbumID] Function execution finished
+[2020-09-23 18:46:49.6098359 IST][TRACE][api_get_images_by_album_service.go GetImagesByAlbum] Function execution finished
+[2020-09-23 18:46:49.6098359 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 18:46:49.6098359 IST][DEBUG][logger.go func1] GET /albums/eb0290d4-4f5d-4dfc-9937-2aaf717f6347/images GetImagesByAlbum 1.0005ms
+[2020-09-23 18:49:23.5723932 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 18:49:23.5763979 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 18:49:23.5763979 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 18:49:23.5763979 IST][INFO][server.go 0] Router configured
+[2020-09-23 18:49:23.5773956 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 18:49:24.5780776 IST][INFO][main.go main] Server Started
+[2020-09-23 18:57:14.1360588 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 18:57:14.1370585 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 18:57:14.1390587 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 18:57:14.1430633 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000306420
+[2020-09-23 18:57:14.1768506 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 18:57:14.1768506 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 18:57:14.1768506 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 18:57:14.1768506 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 18:57:14.1768506 IST][DEBUG][logger.go func1] POST /albums/eb0290d4-4f5d-4dfc-9937-2aaf717f6347/images AddImage 46.8096ms
+[2020-09-23 19:02:10.0311115 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:02:10.0331095 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:02:10.0331095 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:02:10.0341109 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:02:10.0341109 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:02:11.0344233 IST][INFO][main.go main] Server Started
+[2020-09-23 19:02:19.9553992 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:02:19.9553992 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:02:19.9553992 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:02:19.9564175 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00030a200
+[2020-09-23 19:02:19.9673995 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:02:19.9673995 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:02:19.9673995 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:02:19.9673995 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:02:19.9683977 IST][DEBUG][logger.go func1] POST /albums/eb0290d4-4f5d-4dfc-9937-2aaf717f6347/images AddImage 13.9975ms
+[2020-09-23 19:02:52.9817933 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:02:52.9817933 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:02:52.9817933 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:02:52.9827963 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00022a000
+[2020-09-23 19:02:52.9937962 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:02:52.9937962 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:02:52.9937962 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:02:52.9937962 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:02:52.9937962 IST][DEBUG][logger.go func1] POST /albums/eb0290d4-4f5d-4dfc-9937-2aaf717f6347/images AddImage 13.0043ms
+[2020-09-23 19:03:02.3814892 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 19:03:02.3814892 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 19:03:02.3814892 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 Fruits}
+[2020-09-23 19:03:02.3814892 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:03:02.3824563 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000040470
+[2020-09-23 19:03:02.3924569 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:03:02.3924569 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 19:03:02.3924569 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 19:03:02.3924569 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:03:02.3924569 IST][DEBUG][logger.go func1] POST /albums AddAlbum 10.9678ms
+[2020-09-23 19:03:19.3843109 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 19:03:19.3843109 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 19:03:19.3843109 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 personal}
+[2020-09-23 19:03:19.3843109 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:03:19.3853139 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00022a670
+[2020-09-23 19:03:19.3953126 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:03:19.3953126 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 19:03:19.3953126 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 19:03:19.3953126 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:03:19.3953126 IST][DEBUG][logger.go func1] POST /albums AddAlbum 11.0018ms
+[2020-09-23 19:03:53.2948613 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:03:53.2948613 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:03:53.2948613 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:03:53.2958632 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00022ad20
+[2020-09-23 19:03:53.3058613 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:03:53.3058613 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:03:53.3058613 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:03:53.3058613 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:03:53.3058613 IST][DEBUG][logger.go func1] POST /albums/696b4295-af96-4813-8964-ac2280e5f962/images AddImage 11.0001ms
+[2020-09-23 19:03:58.6392446 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:03:58.6392446 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:03:58.6392446 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:03:58.6402419 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000041620
+[2020-09-23 19:03:58.6492364 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:03:58.6492364 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:03:58.6492364 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:03:58.6492364 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:03:58.6502413 IST][DEBUG][logger.go func1] POST /albums/696b4295-af96-4813-8964-ac2280e5f962/images AddImage 12.0032ms
+[2020-09-23 19:05:32.2973818 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution started
+[2020-09-23 19:05:32.2973818 IST][TRACE][image-service.go GetImageByID] Function execution started
+[2020-09-23 19:05:32.2973818 IST][DEBUG][image-service.go GetImageByID] Getting Image with id : fb1aaa2b-af0e-429f-89d4-23b39ad0b0d3
+[2020-09-23 19:05:32.2973818 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:05:32.2973818 IST][DEBUG][sqlite_orm.go Get] Getting record with id : fb1aaa2b-af0e-429f-89d4-23b39ad0b0d3
+[2020-09-23 19:05:32.2983986 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:05:32.2983986 IST][TRACE][image-service.go GetImageByID] Function execution finished
+[2020-09-23 19:05:32.2983986 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution finished
+[2020-09-23 19:05:32.2983986 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:05:32.2983986 IST][DEBUG][logger.go func1] GET /image/fb1aaa2b-af0e-429f-89d4-23b39ad0b0d3 GetImageById 1.0168ms
+[2020-09-23 19:12:49.1239231 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:12:49.1269281 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:12:49.1269281 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:12:49.1279248 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:12:49.1279248 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:12:50.1281314 IST][INFO][main.go main] Server Started
+[2020-09-23 19:13:49.6752829 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:13:49.6752829 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:13:49.6752829 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:13:49.6752829 IST][DEBUG][sqlite_orm.go Get] Getting record with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:13:49.6762829 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:13:49.6762829 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:13:49.6772834 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00018c9d0
+[2020-09-23 19:13:49.6813216 IST][WARN][sqlite_orm.go Post] could not convert argument of field AlbumId from uuid.UUID to stringcould not convert argument of field AlbumId from uuid.UUID to string
+[2020-09-23 19:13:49.6813216 IST][WARN][image-service.go AddImage] could not convert argument of field AlbumId from uuid.UUID to stringcould not convert argument of field AlbumId from uuid.UUID to string
+[2020-09-23 19:13:49.6813216 IST][ERROR][api_add_image_service.go AddImage] could not convert argument of field AlbumId from uuid.UUID to stringcould not convert argument of field AlbumId from uuid.UUID to string
+[2020-09-23 19:13:49.6813216 IST][ERROR][api_add_image.go AddImage] could not convert argument of field AlbumId from uuid.UUID to string
+[2020-09-23 19:13:49.6813216 IST][DEBUG][logger.go func1] POST /albums/696b4295-af96-4813-8964-ac2280e5f962/images AddImage 7.0392ms
+[2020-09-23 19:16:50.4163138 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:16:50.4213186 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:16:50.4213186 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:16:50.4213186 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:16:50.4213186 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:16:51.4215437 IST][INFO][main.go main] Server Started
+[2020-09-23 19:17:00.4496902 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:17:00.4496902 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:17:00.4506911 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:17:00.4506911 IST][DEBUG][sqlite_orm.go Get] Getting record with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:17:00.4516914 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:17:00.4516914 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:17:00.4536931 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00008c8c0
+[2020-09-23 19:17:00.4686902 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:17:00.4686902 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:17:00.4686902 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:17:00.4686902 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:17:00.4686902 IST][DEBUG][logger.go func1] POST /albums/696b4295-af96-4813-8964-ac2280e5f962/images AddImage 19.0001ms
+[2020-09-23 19:17:21.1284346 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution started
+[2020-09-23 19:17:21.1284346 IST][TRACE][image-service.go GetImageByID] Function execution started
+[2020-09-23 19:17:21.1284346 IST][DEBUG][image-service.go GetImageByID] Getting Image with id : e028f291-797a-41ac-ac48-2d487c854024
+[2020-09-23 19:17:21.1284346 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:17:21.1284346 IST][DEBUG][sqlite_orm.go Get] Getting record with id : e028f291-797a-41ac-ac48-2d487c854024
+[2020-09-23 19:17:21.131433 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:17:21.131433 IST][TRACE][image-service.go GetImageByID] Function execution finished
+[2020-09-23 19:17:21.131433 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution finished
+[2020-09-23 19:17:21.131433 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:17:21.131433 IST][DEBUG][logger.go func1] GET /image/e028f291-797a-41ac-ac48-2d487c854024 GetImageById 2.9984ms
+[2020-09-23 19:22:08.9573502 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:22:08.9593453 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:22:08.9593453 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:22:08.9593453 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:22:08.9603448 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:22:09.9607144 IST][INFO][main.go main] Server Started
+[2020-09-23 19:23:02.7954296 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:23:02.7954296 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:23:02.7954296 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:23:02.7954296 IST][DEBUG][sqlite_orm.go Get] Getting record with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:23:02.7964342 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:23:02.7964342 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:23:02.7974372 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc000188860
+[2020-09-23 19:23:02.8094595 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:23:02.8094595 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:23:02.8094595 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:23:02.8094595 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:23:02.8104598 IST][DEBUG][logger.go func1] POST /albums/696b4295-af96-4813-8964-ac2280e5f962/images AddImage 15.0303ms
+[2020-09-23 19:23:24.5832964 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution started
+[2020-09-23 19:23:24.5832964 IST][TRACE][image-service.go GetImageByID] Function execution started
+[2020-09-23 19:23:24.5832964 IST][DEBUG][image-service.go GetImageByID] Getting Image with id : c829ac42-99a5-4883-8b9f-9db36eb8fd2e
+[2020-09-23 19:23:24.5832964 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:23:24.5832964 IST][DEBUG][sqlite_orm.go Get] Getting record with id : c829ac42-99a5-4883-8b9f-9db36eb8fd2e
+[2020-09-23 19:23:24.5842967 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:23:24.5842967 IST][TRACE][image-service.go GetImageByID] Function execution finished
+[2020-09-23 19:23:24.5842967 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution finished
+[2020-09-23 19:23:24.5842967 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:23:24.5842967 IST][DEBUG][logger.go func1] GET /image/c829ac42-99a5-4883-8b9f-9db36eb8fd2e GetImageById 1.0003ms
+[2020-09-23 19:25:14.3993999 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:25:14.4014016 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:25:14.4014016 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:25:14.4014016 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:25:14.4014016 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:25:15.4020997 IST][INFO][main.go main] Server Started
+[2020-09-23 19:25:31.8400299 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:25:31.8410292 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:25:31.8410292 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:25:31.8460308 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc0002b80e0
+[2020-09-23 19:25:31.8570709 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:25:31.8570709 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:25:31.8570709 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:25:31.8570709 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:25:31.858049 IST][DEBUG][logger.go func1] POST /albums/696b4295-af96-4813-8964-ac2280e5f962/images AddImage 18.0192ms
+[2020-09-23 19:25:50.1580786 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution started
+[2020-09-23 19:25:50.1580786 IST][TRACE][image-service.go GetImageByID] Function execution started
+[2020-09-23 19:25:50.1580786 IST][DEBUG][image-service.go GetImageByID] Getting Image with id : 94c7755b-a912-4e78-b6ed-e921df722e02
+[2020-09-23 19:25:50.1580786 IST][TRACE][sqlite_orm.go Get] Function execution started
+[2020-09-23 19:25:50.1580786 IST][DEBUG][sqlite_orm.go Get] Getting record with id : 94c7755b-a912-4e78-b6ed-e921df722e02
+[2020-09-23 19:25:50.1600884 IST][TRACE][sqlite_orm.go Get] Function execution finished
+[2020-09-23 19:25:50.1600884 IST][TRACE][image-service.go GetImageByID] Function execution finished
+[2020-09-23 19:25:50.1600884 IST][TRACE][api_get_image_by_id_service.go GetImageById] Function execution finished
+[2020-09-23 19:25:50.1600884 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:25:50.1600884 IST][DEBUG][logger.go func1] GET /image/94c7755b-a912-4e78-b6ed-e921df722e02 GetImageById 2.0099ms
+[2020-09-23 19:27:43.3772503 IST][TRACE][api_get_images_by_album_service.go GetImagesByAlbum] Function execution started
+[2020-09-23 19:27:43.3772503 IST][TRACE][image-service.go ListImagesByAlbumID] Function execution started
+[2020-09-23 19:27:43.3772503 IST][DEBUG][image-service.go FromString] Listing all images in an album with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:27:43.37825 IST][TRACE][sqlite_orm.go ListBasedOnCondition] Function execution started
+[2020-09-23 19:27:43.37825 IST][DEBUG][sqlite_orm.go ListBasedOnCondition] Listing all records of type : *[]model.Image
+[2020-09-23 19:27:43.3812504 IST][TRACE][sqlite_orm.go ListBasedOnCondition] Function execution finished
+[2020-09-23 19:27:43.3812504 IST][TRACE][image-service.go ListImagesByAlbumID] Function execution finished
+[2020-09-23 19:27:43.3812504 IST][TRACE][api_get_images_by_album_service.go GetImagesByAlbum] Function execution finished
+[2020-09-23 19:27:43.3812504 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:27:43.3812504 IST][DEBUG][logger.go func1] GET /albums/696b4295-af96-4813-8964-ac2280e5f962/images GetImagesByAlbum 4.0001ms
+[2020-09-23 19:29:02.0131233 IST][TRACE][api_delete_image_by_id_service.go DeleteImageById] Function execution started
+[2020-09-23 19:29:02.0131233 IST][TRACE][image-service.go DeleteImageById] Function execution started
+[2020-09-23 19:29:02.0131233 IST][DEBUG][image-service.go DeleteImageById] Deleting image with id : 94c7755b-a912-4e78-b6ed-e921df722e02
+[2020-09-23 19:29:02.0131233 IST][TRACE][sqlite_orm.go Delete] Function execution started
+[2020-09-23 19:29:02.0131233 IST][DEBUG][sqlite_orm.go Delete] Deleting record with id : 94c7755b-a912-4e78-b6ed-e921df722e02
+[2020-09-23 19:29:02.0241225 IST][TRACE][sqlite_orm.go Delete] Function execution finished
+[2020-09-23 19:29:02.0241225 IST][TRACE][image-service.go DeleteImageById] Function execution finished
+[2020-09-23 19:29:02.0241225 IST][TRACE][api_delete_image_by_id_service.go DeleteImageById] Function execution finished
+[2020-09-23 19:29:02.0241225 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:29:02.0241225 IST][DEBUG][logger.go func1] DELETE /image/94c7755b-a912-4e78-b6ed-e921df722e02 DeleteImageById 10.9993ms
+[2020-09-23 19:30:26.311019 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution started
+[2020-09-23 19:30:26.311019 IST][TRACE][image-service.go DeleteAlbumById] Function execution started
+[2020-09-23 19:30:26.311019 IST][DEBUG][image-service.go DeleteAlbumById] Deleting image with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:30:26.311019 IST][TRACE][sqlite_orm.go Delete] Function execution started
+[2020-09-23 19:30:26.311019 IST][DEBUG][sqlite_orm.go Delete] Deleting record with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:30:26.3140278 IST][TRACE][sqlite_orm.go Delete] Function execution finished
+[2020-09-23 19:30:26.3140278 IST][TRACE][image-service.go DeleteAlbumById] Function execution finished
+[2020-09-23 19:30:26.3140278 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution finished
+[2020-09-23 19:30:26.3140278 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:30:26.3140278 IST][DEBUG][logger.go func1] DELETE /albums/696b4295-af96-4813-8964-ac2280e5f962 DeleteAlbum 3.0088ms
+[2020-09-23 19:31:06.8647693 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution started
+[2020-09-23 19:31:06.8647693 IST][TRACE][image-service.go DeleteAlbumById] Function execution started
+[2020-09-23 19:31:06.8647693 IST][DEBUG][image-service.go DeleteAlbumById] Deleting image with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:31:06.8647693 IST][TRACE][sqlite_orm.go Delete] Function execution started
+[2020-09-23 19:31:06.8647693 IST][DEBUG][sqlite_orm.go Delete] Deleting record with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:31:06.8647693 IST][TRACE][sqlite_orm.go Delete] Function execution finished
+[2020-09-23 19:31:06.8647693 IST][TRACE][image-service.go DeleteAlbumById] Function execution finished
+[2020-09-23 19:31:06.8647693 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution finished
+[2020-09-23 19:31:06.8647693 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:31:06.8647693 IST][DEBUG][logger.go func1] DELETE /albums/696b4295-af96-4813-8964-ac2280e5f962 DeleteAlbum 998.6µs
+[2020-09-23 19:32:23.079724 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:32:23.0837339 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:32:23.0837339 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:32:23.0837339 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:32:23.0837339 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:32:24.0845238 IST][INFO][main.go main] Server Started
+[2020-09-23 19:32:32.2945837 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution started
+[2020-09-23 19:32:32.2945837 IST][TRACE][image-service.go DeleteAlbumById] Function execution started
+[2020-09-23 19:32:32.2945837 IST][DEBUG][image-service.go DeleteAlbumById] Deleting image with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:32:32.2945837 IST][TRACE][sqlite_orm.go Delete] Function execution started
+[2020-09-23 19:32:32.2945837 IST][DEBUG][sqlite_orm.go Delete] Deleting record with id : 696b4295-af96-4813-8964-ac2280e5f962
+[2020-09-23 19:32:32.3045905 IST][TRACE][sqlite_orm.go Delete] Function execution finished
+[2020-09-23 19:32:32.3045905 IST][TRACE][image-service.go DeleteAlbumById] Function execution finished
+[2020-09-23 19:32:32.3045905 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution finished
+[2020-09-23 19:32:32.3045905 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:32:32.3045905 IST][DEBUG][logger.go func1] DELETE /albums/696b4295-af96-4813-8964-ac2280e5f962 DeleteAlbum 10.0068ms
+[2020-09-23 19:33:44.5184036 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:33:44.5224144 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:33:44.5224144 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:33:44.5224144 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:33:44.5234082 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:33:45.5234159 IST][INFO][main.go main] Server Started
+[2020-09-23 19:34:06.8030324 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution started
+[2020-09-23 19:34:06.8030324 IST][TRACE][image-service.go DeleteAlbumById] Function execution started
+[2020-09-23 19:34:06.8030324 IST][DEBUG][image-service.go DeleteAlbumById] Deleting image with id : eb0290d4-4f5d-4dfc-9937-2aaf717f6347
+[2020-09-23 19:34:06.8030324 IST][TRACE][sqlite_orm.go Delete] Function execution started
+[2020-09-23 19:34:06.8030324 IST][DEBUG][sqlite_orm.go Delete] Deleting record with id : eb0290d4-4f5d-4dfc-9937-2aaf717f6347
+[2020-09-23 19:34:06.8160327 IST][TRACE][sqlite_orm.go Delete] Function execution finished
+[2020-09-23 19:34:06.8160327 IST][TRACE][image-service.go DeleteAlbumById] Function execution finished
+[2020-09-23 19:34:06.8160327 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution finished
+[2020-09-23 19:34:06.8160327 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:34:06.8160327 IST][DEBUG][logger.go func1] DELETE /albums/eb0290d4-4f5d-4dfc-9937-2aaf717f6347 DeleteAlbum 13.0004ms
+[2020-09-23 19:37:10.8053236 IST][INFO][sqlite_connection.go 0] Initializing SQLite Instance
+[2020-09-23 19:37:10.8253231 IST][INFO][sqlite_connection.go 0] Initialized SQLite Instance
+[2020-09-23 19:37:10.8253231 IST][INFO][server.go 0] Configuring Router
+[2020-09-23 19:37:10.8253231 IST][INFO][server.go 0] Router configured
+[2020-09-23 19:37:10.8253231 IST][INFO][server.go Start] Starting HTTP Server on port : 9000
+[2020-09-23 19:37:11.8337869 IST][INFO][main.go main] Server Started
+[2020-09-23 19:38:47.4633273 IST][TRACE][api_add_album_service.go AddAlbum] Function execution started
+[2020-09-23 19:38:47.4633273 IST][TRACE][image-service.go AddAlbum] Function execution started
+[2020-09-23 19:38:47.4633273 IST][DEBUG][image-service.go AddAlbum] Album Request{00000000-0000-0000-0000-000000000000 personal}
+[2020-09-23 19:38:47.4633273 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:38:47.4643279 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00030a1b0
+[2020-09-23 19:38:47.4763299 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:38:47.4763299 IST][TRACE][image-service.go AddAlbum] Function execution finished
+[2020-09-23 19:38:47.4763299 IST][TRACE][api_add_album_service.go AddAlbum] Function execution finished
+[2020-09-23 19:38:47.4763299 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:38:47.4763299 IST][DEBUG][logger.go func1] POST /albums AddAlbum 13.0027ms
+[2020-09-23 19:39:09.9717882 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:39:09.9717882 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:39:09.9727547 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:39:09.9757549 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc0000402c0
+[2020-09-23 19:39:09.9837538 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:39:09.9837538 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:39:09.9837538 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:39:09.9847534 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:39:09.9847534 IST][DEBUG][logger.go func1] POST /albums/64c6d3fc-3b71-4409-bb7a-e8294d2f4264/images AddImage 12.9652ms
+[2020-09-23 19:39:15.8867257 IST][TRACE][api_add_image_service.go AddImage] Function execution started
+[2020-09-23 19:39:15.8867257 IST][TRACE][image-service.go AddImage] Function execution started
+[2020-09-23 19:39:15.8867257 IST][TRACE][sqlite_orm.go Post] Function execution started
+[2020-09-23 19:39:15.8887278 IST][DEBUG][sqlite_orm.go Post] Persisting new record : 0xc00030b2f0
+[2020-09-23 19:39:15.8957216 IST][TRACE][sqlite_orm.go Post] Function execution finished
+[2020-09-23 19:39:15.8957216 IST][TRACE][image-service.go AddImage] Function execution finished
+[2020-09-23 19:39:15.8957216 IST][TRACE][api_add_image_service.go AddImage] Function execution finished
+[2020-09-23 19:39:15.8957216 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:39:15.8957216 IST][DEBUG][logger.go func1] POST /albums/64c6d3fc-3b71-4409-bb7a-e8294d2f4264/images AddImage 8.9959ms
+[2020-09-23 19:39:23.197294 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution started
+[2020-09-23 19:39:23.197294 IST][TRACE][image-service.go DeleteAlbumById] Function execution started
+[2020-09-23 19:39:23.197294 IST][DEBUG][image-service.go DeleteAlbumById] Deleting image with id : 64c6d3fc-3b71-4409-bb7a-e8294d2f4264
+[2020-09-23 19:39:23.197294 IST][TRACE][sqlite_orm.go Delete] Function execution started
+[2020-09-23 19:39:23.197294 IST][DEBUG][sqlite_orm.go Delete] Deleting record with id : 64c6d3fc-3b71-4409-bb7a-e8294d2f4264
+[2020-09-23 19:39:23.2073164 IST][TRACE][sqlite_orm.go Delete] Function execution finished
+[2020-09-23 19:39:23.2073164 IST][TRACE][image-service.go DeleteAlbumById] Function execution finished
+[2020-09-23 19:39:23.2073164 IST][TRACE][api_delete_album_service.go DeleteAlbum] Function execution finished
+[2020-09-23 19:39:23.2073164 IST][TRACE][routers.go EncodeJSONResponse] Function execution started
+[2020-09-23 19:39:23.2073164 IST][DEBUG][logger.go func1] DELETE /albums/64c6d3fc-3b71-4409-bb7a-e8294d2f4264 DeleteAlbum 10.0225ms

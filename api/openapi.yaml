@@ -1,0 +1,311 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: diksha.may14@outlook.com
+    name: Diksha Sharma
+  description: Image store service provides Albums and Image management operaions
+  title: Image Store
+  version: 1.0.0
+servers:
+- {}
+paths:
+  /albums:
+    get:
+      operationId: GetAlbums
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetAlbumsResponse'
+          description: Expected response for a valid request
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: Get all albums
+      tags:
+      - GetAlbums
+    post:
+      operationId: AddAlbum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddAlbumRequest'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Expected response to a valid request
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: Create an album
+      tags:
+      - AddAlbum
+  /albums/{id}:
+    delete:
+      operationId: DeleteAlbum
+      parameters:
+      - description: The id of the album to delete
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "204":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Delete reponse for the DeleteAlbum
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: delete an album with the the given id
+      tags:
+      - DeleteAlbum
+  /albums/{id}/images:
+    delete:
+      operationId: DeleteImagesByAlbum
+      parameters:
+      - description: The id of the album
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "204":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Delete reponse for the valid album id
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: delete all images in an album with the the given id
+      tags:
+      - DeleteImagesByAlbum
+    get:
+      operationId: GetImagesByAlbum
+      parameters:
+      - description: The id of the album
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetImagesByAlbumResponse'
+          description: Expected response for a valid album id
+        "404":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Not Found response for an invalid album id
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: Get all the images associated with an album of a given id
+      tags:
+      - GetImagesByAlbum
+    post:
+      operationId: AddImage
+      parameters:
+      - description: The id of the album
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddImageRequest'
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Expected response to a valid request
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: Add an image in an album with the the given id
+      tags:
+      - AddImage
+  /image/{id}:
+    delete:
+      operationId: DeleteImageById
+      parameters:
+      - description: The id of the image
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "204":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Delete reponse for the DeleteImageById
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: delete an image with the the given image id
+      tags:
+      - DeleteImageById
+    get:
+      operationId: GetImageById
+      parameters:
+      - description: The id of the Image
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetImageByIdResponse'
+          description: Expected response for a valid Image id
+        "404":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: Not Found response for an invalid image id or an invalid album
+            id
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+          description: unexpected error
+      summary: Get an image with the given image id
+      tags:
+      - GetImageById
+components:
+  schemas:
+    GetAlbumsResponse:
+      items:
+        type: string
+      type: array
+    Response:
+      example:
+        code: code
+        message: message
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+    AddAlbumRequest:
+      example:
+        albumName: albumName
+      properties:
+        albumName:
+          type: string
+      required:
+      - albumName
+      type: object
+    GetImagesByAlbumResponse:
+      items:
+        properties:
+          imageId:
+            type: string
+          albumId:
+            type: string
+          imageName:
+            nullable: true
+            type: string
+          albumName:
+            type: string
+          imageData:
+            type: string
+        type: object
+      type: array
+    AddImageRequest:
+      example:
+        imageName: imageName
+        imageData: imageData
+      properties:
+        imageName:
+          nullable: true
+          type: string
+        imageData:
+          type: string
+      required:
+      - imageData
+      type: object
+    GetImageByIdResponse:
+      example:
+        imageId: imageId
+        imageName: imageName
+        imageData: imageData
+        albumId: albumId
+      properties:
+        imageId:
+          type: string
+        albumId:
+          type: string
+        albumName:
+            nullable: true
+            type: string
+        imageName:
+          nullable: true
+          type: string
+        imageData:
+          type: string
+      type: object

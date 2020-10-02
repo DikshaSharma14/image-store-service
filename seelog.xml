@@ -1,0 +1,10 @@
+<seelog minlevel="trace" maxlevel="critical">
+  <outputs formatid="main">
+    <console/>
+    <rollingfile formatid="main" type="size" filename="image-store-service.log" maxsize="100000000"
+                 maxrolls="5"/>
+  </outputs>
+  <formats>
+    <format id="main" format="[%Date(2006-01-02 15:04:05.999999999 MST)][%LEVEL][%File %FuncShort] %Msg%n"/>
+  </formats>
+</seelog>
