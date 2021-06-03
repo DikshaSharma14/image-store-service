@@ -1,7 +1,5 @@
 package constants
 
-type EnrollmentStatus string
-type ModalityStatus string
 
 const (
 	LogBeginFunc          = "Function execution started"
